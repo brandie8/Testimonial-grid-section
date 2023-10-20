@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+   
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+align-items: center;
+}
+.grid-container{
+   width: 80%;
+   /* height: 80%; */
+   display: flex;
+ justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+}
+
+#Daniel{
+    border: solid rgb(233, 232, 230);
+    background-color: hsl(228, 45%, 44%);
+    border-radius: 4%;
+    padding: 30px;
+    color: aliceblue;
+    position: relative;
+    margin-right: 2%;
+}
+#Jonathan{
+    border: solid rgb(233, 232, 230);
+    background-color: rgb(129, 125, 125);
+    border-radius: 4%;
+    padding: 30px;
+    color: aliceblue;
+    margin-right: 2%;
+}
+#Jeanette{
+    border: solid rgb(233, 232, 230);
+    background-color: rgb(245, 246, 247); 
+    border-radius: 4%;
+    padding: 30px;
+    color:black; 
+    margin-right: 2%;
+    margin-top: 2%;
+   
+}
+#Patrick{
+    border: solid rgb(233, 232, 230);
+    background-color: rgb(15, 15, 15);
+    border-radius: 4%;
+    padding: 30px;
+    color: aliceblue; 
+    margin-right: 2%;
+    margin-top: 2%;
+   
+}
+#Kira{
+    border: solid rgb(233, 232, 230);
+    background-color: rgb(245, 246, 247); 
+    border-radius: 4%;
+    padding: 30px;
+    color:black; 
+    height: 650px;
+    
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 5px 5px 20px rgba(190, 190, 190, 0.5);
+}
+h1{
+    font-size: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+img{
+    border-radius: 50%;
+}
+
+.image{
+    display: flex;
+    margin-bottom: 20px;
+}
+.quotation{
+    position:absolute;
+    right:20%;
+   top: 30px;
+    z-index: 0;
+}
+    
+}
+h4{
+    padding-left: 2%;
+}
+.right{
+   
+    width: 1000px;
+    height: 650px;
+   
+}
+.top, .bottom{
+    display: flex;
+}
+.left{
+    height: 650px;
+}
